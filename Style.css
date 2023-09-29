@@ -1,0 +1,97 @@
+body{
+    background-image:url("/Users/andreaaliquo/Desktop/Boolean/Quinto Esercizio Coding Challenge/MaterialeEsercizioLim/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Contenitori e posizionamenti */
+
+.BlackSquare{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    height: 630px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.Container{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.SearchBar{
+    background-color: lime;
+    margin: auto;
+    width: 85%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.MainSection{
+    width: 88%;
+    height: auto;
+    margin: auto;
+    line-height: 20pt;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+/* Sottoelementi testuali e box carica */
+
+div h1{
+    font-size: 18pt;
+    color: lime;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600
+}
+
+.User{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+
+}
+
+p{
+    font-size: 10pt;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: light;
+    line-height: 14pt;
+    margin: 0;
+    padding: 0;
+}
+
+.Rectangle1, .Rectangle2, .Rectangle3{
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.Rectangle1{
+    width: 400px;
+    background-color: rgb(255, 203, 107);
+}
+
+.Rectangle2{
+    width: 550px;
+    background-color: rgb(0, 203, 41);
+}
+
+.Rectangle3{
+    width: 150px;
+    background-color: rgb(252, 74, 74);
+}
